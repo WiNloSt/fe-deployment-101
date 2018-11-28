@@ -1,0 +1,23 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    color: #399ad6;
+    text-decoration: none;
+}
+
+li~li>a::before {
+    content: '|';
+}
+
+.app-container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
