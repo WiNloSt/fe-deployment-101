@@ -1,0 +1,12 @@
+{
+  "name": "single-page-application",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^10.1.1"
+  },
+  "scripts": {
+    "start": "serve ."
+  }
+}
